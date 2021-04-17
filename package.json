@@ -1,0 +1,22 @@
+{
+  "name": "vue-command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suckitfa/vue-command.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suckitfa/vue-command/issues"
+  },
+  "homepage": "https://github.com/suckitfa/vue-command#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
