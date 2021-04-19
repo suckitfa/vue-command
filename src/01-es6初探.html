@@ -1,8 +1,13 @@
 <script>
-    // console.log(B);
-    // const B = 1;
-    // B = 2;
-    // (let i = 0);
-    const i;
-    console.log(i);
+    let Jack = {
+            name: "Jack",
+            age: 18,
+            degree: "D.R"
+        }
+        // 传统写法(现在不用遍历的写法)
+    let msg = "name = " + Jack.name + ",age = " + Jack.age + ",degree = " + Jack.degree
+    console.log(msg);
+    // es6模板字符串
+    let msg2 = `name = ${Jack.name},age = ${Jack.age},degree = ${Jack.degree}`;
+    console.log(msg2);
 </script>
