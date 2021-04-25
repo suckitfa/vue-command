@@ -81,6 +81,7 @@ class VNode {
 > ```
 > 解决方法就是：
 > ```js
+> vm.$set(vm.books,0,{title:"《如何成为开发高手》"})
 > ```
 
 ### 参考
